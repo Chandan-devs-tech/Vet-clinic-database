@@ -29,6 +29,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -134,5 +135,13 @@ If you like this project give me a ⭐️.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank the Microverse Team.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT]() licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
