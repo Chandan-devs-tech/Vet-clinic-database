@@ -15,6 +15,12 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 <a name="readme-top"></a>
 
+<div align="center">
+
+  <h1><b>🏥🐾🐶🐱VET CLINIC DATABASE</b></h1>
+
+</div>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
