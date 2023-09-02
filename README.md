@@ -10,7 +10,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 <a name="readme-top"></a>
 
 <p align="center">
-   <img src="./src/assets/Calculator.png" alt="Animation" width="150" style="background: transparent;">
+   <img src="assets/vet_clinic.png" alt="vet_clinic" width="150" style="background: transparent;">
 </p>
 
 <a name="readme-top"></a>
