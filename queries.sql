@@ -72,10 +72,6 @@ SELECT species, MIN(weight_kg) FROM animals GROUP BY species;
 SELECT species, avg(escape_attempts) FROM animals WHERE date_of_birth BETWEEN '1990-01-01' AND '2000-12-31' GROUP BY species;
 
 
-
-
-
-
 /*What animals belong to Melody Pond?*/
 SELECT name as animal_name FROM animals JOIN owners ON animals.owner_id = owners.id WHERE owners.full_name= 'Melody Pond';
 /*List of all animals that are pokemon (their type is Pokemon).*/
