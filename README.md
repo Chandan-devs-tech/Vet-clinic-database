@@ -144,4 +144,5 @@ I would like to thank the Microverse Team.
 
 This project is [MIT](https://github.com/Chandan-devs-tech/Vet-clinic-database/blob/feature/update-animals/Mit.md) licensed.
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
