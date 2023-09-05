@@ -110,5 +110,7 @@ SELECT COUNT(*) AS num_visit_with_unspecialized_vet FROM visits v JOIN animals a
 SELECT species.name AS specialty_required_in_species, vets.name AS doctor_name FROM animals JOIN visits ON animals.id = visits.animal_id JOIN vets ON visits.vet_id = vets.id JOIN species ON animals.species_id = species.id WHERE vets.name = 'Maisy Smith' GROUP BY species.name, vets.name ORDER BY COUNT(species.name) DESC LIMIT 1;
 
 /*Performance Project*/
+
 SELECT COUNT(*) FROM visits where animal_id = 4;
 SELECT * FROM visits where vet_id = 2;
+SELECT * FROM owners where email = 'owner_18327@mail.com';
