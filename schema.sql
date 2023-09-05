@@ -43,3 +43,8 @@ es_id,vets_id));
 
 CREATE TABLE visits (visit_id INT GENERATED ALWAYS AS IDENTITY,animal_id INT REFERENCES animals(id),vet_id INT REFERENCES vets(id),visit_date DATE,PRIMARY KEY (visit_id));
 \d visits
+
+/*Performance Project*/
+
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
