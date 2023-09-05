@@ -46,5 +46,6 @@ CREATE TABLE visits (visit_id INT GENERATED ALWAYS AS IDENTITY,animal_id INT REF
 
 /*Performance Project*/
 
+CREATE INDEX indx_animal_id ON visits(animal_id ASC);
 ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 
