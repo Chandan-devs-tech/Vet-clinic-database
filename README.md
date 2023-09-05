@@ -109,6 +109,12 @@ Install postgreSQL [https://www.postgresql.org/download/]
 - Twitter: [@twitterhandle](https://twitter.com/ChandanGuptaDev)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/chandangupta-devs)
 
+👤 **Samuel Lemma**
+
+- GitHub: [@githubhandle](https://github.com/sam2if)
+- Twitter: [@twitterhandle](https://twitter.com/samuellemma3733)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/s-lemma/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
