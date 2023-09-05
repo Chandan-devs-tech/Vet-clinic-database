@@ -31,3 +31,9 @@ SELECT * FROM specializations;
 
 INSERT INTO visits(animal_id,vet_id,visit_date) VALUES (1,1,'2020-5-24'),(1,3,'2020-7-22'),(2,4,'2021-2-2'),(5,2,'2020-1-5'),(5,2,'2020-3-8'),(5,2,'2020,5-14'),(3,3,'2021-5-4'),(9,4,'2021-2-24'),(7,2,'2019-12-21'),(7,1,'2020-8-10'),(7,2,'2021-4-7'),(10,3,'2019-09-29'),(8, 4, '2020-10-03'), (8, 4, '2020-11-04'), (4, 2, '2019-01-24'), (4, 2, '2019-05-15'), (4, 2, '2020-02-27'), (4, 2, '2020-08-03'), (6, 3, '2020-05-24'), (6, 1, '2021-01-11');
 SELECT * FROM visits;
+
+/*Performance Project*/
+
+INSERT INTO visits (animal_id, vet_id, visit_date) SELECT * FROM (SELECT id FROM animals) animal_ids, (SELECT id FROM vets) vets_ids, generate_series('1980-01-01'::timestamp, '2021-01-01', '4 hours') visit_timestamp;
+
+insert into owners (full_name, email) select 'Owner ' || generate_series(1,2500000), 'owner_' || generate_series(1,2500000) || '@mail.com';
